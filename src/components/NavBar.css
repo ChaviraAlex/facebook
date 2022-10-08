@@ -1,0 +1,81 @@
+   .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    background-color: #242526;
+    height: 40px;
+    }
+    
+    .navbar-icons-center {
+        display: flex;
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 12px;
+        gap: 10px;
+        padding-right: 100px;
+    }
+
+
+
+
+    .navbar-icons-right {
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    gap: 15px;
+
+    }
+
+
+    .Search {
+    color: #40005d;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    }
+
+    .Search input {
+        width: 200px;
+        height: 30px;
+        padding-left: 15px;
+        font-size:15px;
+        background-color: #3A3B3C;
+        border-radius: 20px;
+        border: 1px;
+    }
+
+
+    .Photo {
+        width: 20px;
+        border-radius: 20px;
+    }
+    .Logo {
+        width: 50px;
+    }
+    .navbar-icons-center img {
+        width: 20px;
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+    }
+
+    .navbar-icons-right img {
+        width: 20px;
+        padding: 2px;
+        background: #3A3B3C;
+        border-radius: 50%;
+    }
+
+    .navbar-icons-center :hover{
+        background-color: #3A3B3C;
+        border-radius: 7px;
+    }
+
+    .navbar-icons-right a :hover{
+        background-color: #57595c;
+    }
